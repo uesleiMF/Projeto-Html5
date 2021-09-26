@@ -1,75 +1,4 @@
-p {
-    background-size: 100%;
- background-attachment: fixed;
- padding: 20px 20px;
-    color:blue;
-    text-align: justify;
-    
-    
-}
-
-
-h1{
-    background-image: url("ceu.webp");
- background-size: 50%;
- background-attachment: fixed;
- padding: 10px 10px;
-    color: black;
-    text-align: center;
-    
-}
-
-h3{
-    background-size: 30%;
- background-attachment: fixed;
- padding: 30px 20px;
-    color: black;
-    text-align: center;
-
-}
-h4{
-    background-size: 130%;
- background-attachment: fixed;
- padding: 30px 200px;
-    color: black;
-    text-align: center;
-    
-    
-    
-}
-body{
-    background-color: yellow;
- background-size: 135%;
- background-attachment: fixed;
- filter: invert(-150%);
-
- 
- }
-  audio {
-    height:30px; 
-    width:200px; 
-    margin: -20px -350px; 
-    position:relative;
-    top:50%; 
-    left:50%;
-}
- 
- article{
-    width:"30" ;
-height:"200";
-    background-size: 75%;
-    display: flex;
-    margin: 8px; 
-      position:relative;
-      top:10%; 
-      left:10%;
-      filter: invert(-10%);
-      padding: 15px 30px;
-      margin: 5px;
-      
-   }
-
-   .row-nowrap {
+  .row-nowrap {
 	flex-flow: row nowrap;
 }
 .column-nowrap {
@@ -103,25 +32,68 @@ h1 {
 	margin: 20px 0 0 0;
 	font-size: 1.25em;
 	font-weight: normal;
+    background-image: url("ceu.webp");
+     background-size: 50%;
+     background-attachment: fixed;
+     padding: 10px 10px;
+        color: black;
+       
+
 }
 h2 {
 	text-align: center;
 	margin: 20px 0 0 0;
 	font-size: 1.25em;
 	font-weight: normal;
+	margin: 20px 0 0 0;
+	 background-size: 50%;
+     background-attachment: fixed;
+     padding: 10px 10px;
+        color: black;
+
 }
 
-h5 {
-    width:"30" ;
-    height:"20";
-        background-size: 75%;
-        display: flex;
-        margin: 8px; 
-          position:relative;
-          top:10%; 
-          left:10%;
-          filter: invert(-10%);
-          padding: 15px 30px;
-          margin: 5px;
-          
+
+p {
+    background-size: 100%;
+ background-attachment: fixed;
+ padding: 20px 20px;
+    color:blue;
+    text-align: justify;
+    
+    
 }
+
+
+
+body{
+    background-color: yellow;
+ background-size: 135%;
+ background-attachment: fixed;
+ filter: invert(-150%);
+
+ 
+ }
+  audio {
+    height:30px; 
+    width:200px; 
+    margin: -20px -350px; 
+    position:relative;
+    top:50%; 
+    left:50%;
+}
+ 
+ article{
+    width:"30" ;
+    height:"200";
+    background-size: 75%;
+    display: flex;
+     margin: -20px -350px; 
+      position:relative;
+      top:10%; 
+      left:10%;
+      filter: invert(-10%);
+      padding: 15px 30px;
+      margin: 5px;
+      
+   }
